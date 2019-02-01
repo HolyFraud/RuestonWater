@@ -1,0 +1,53 @@
+
+.space{
+    height: 4vw;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+        
+.content{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+        
+.slide{
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.slide h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-family: 'Coming Soon', cursive;
+}
+.slide p{
+    font-family: 'Coming Soon', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+    
+}
+        
+#slide1{
+    background-image: url(../Images/img_longtou.jpeg);
+}
+#slide2{
+    background-image: url(../Images/img_fruit.jpeg);
+}
+#slide3{
+    background-image: url(../Images/img_wave.jpeg);
+}
+#slide4{
+    background-image: url(../Images/img_carrot.jpeg);
+}
