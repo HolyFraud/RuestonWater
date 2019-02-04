@@ -20,7 +20,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.slide h1{
+/*.slide h1{
     position: absolute;
     top: 40%;
     left: 50%;
@@ -37,17 +37,58 @@
     transform: translate(-50%, -50%);
     text-align: left;
     
+}*/
+    
+.slide .innerleft{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 20%;
+    text-align: right;
+    margin: auto;
+    padding-left: 12vw;
 }
-        
+h1{
+    background-color: rgba(0,0,0,0.37);
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding: 30px;
+}
+.slide .innerright{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    text-align: left;
+    margin: auto;
+    padding: 0px 30px;
+}
+.innerright p{
+    margin: auto;
+    text-align: left;
+    width: 90%;
+    padding: 10px 30px;
+    background-color: rgba(0,0,0,0.37);
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#ref{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+}
 #slide1{
-    background-image: url(../Images/img_longtou.jpeg);
+    background-image: url(../Images/bg_aumade_slide1.jpg);
 }
 #slide2{
-    background-image: url(../Images/img_fruit.jpeg);
+    background-image: url(../Images/bg_aumade_slide2.jpg);
 }
 #slide3{
-    background-image: url(../Images/img_wave.jpeg);
+    background-image: url(../Images/bg_aumade_slide3.jpg);
 }
 #slide4{
-    background-image: url(../Images/img_carrot.jpeg);
+    background-image: url(../Images/bg_aumade_slide4.jpg);
 }
