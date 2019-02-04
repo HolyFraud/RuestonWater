@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html class="fsvs" lang="en">
+<head>
+    <meta charset="utf-8">
+ <title></title>
+ <!--Codex de jquery-->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-3.0.1.js"></script>
+    <script src="JS/bundle.js"></script>
+    <link href="CSS/style.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Coming+Soon|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Index.css"/>
+    <link rel="stylesheet" href="CSS/aumade.css" />
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css" /> 
+    <script src="bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+    <script src="JS/Effects.js"></script>
+    
+    <script>
+        jQuery(document).ready(function($){
+            var slider = $.fn.fsvs({
+                autoPlay            : false,
+                speed               : 1000,
+                bodyID              : 'fsvs-body',
+                selector            : '> .slide',
+                mouseSwipeDisance   : 40,
+                afterSlide          : function(){},
+                beforeSlide         : function(){},
+                endSlide            : function(){},
+                mouseWheelEvents    : true,
+                mouseWheelDelay     : false,
+                mouseDragEvents     : false,
+                touchEvents         : true,
+                arrowKeyEvents      : true,
+                pagination          : true,
+                nthClasses          : 2,
+                detectHash          : true
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <!-- nav bar section-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark with_border" id="navbar" style="height: 4vw;">
+        
+        <a class="navbar-brand collapse navbar-collapse pl-5" href="index.html"><img src="Images/logo_rswoater.png" class="logo" id="logo" style="width: 10%;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-5 pl-5">
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item px-1 active">
+                    <a class="nav-link" href="story.html">Story</a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="waterpower.html" >Botanical Power</a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="ozlife.html">Australian LifeStyle</a>
+                </li>
+                <li class="nav-item px-1 active">
+                    <a class="nav-link" href="aumade.html" style="color: #9d9d9d;">100% AU Made<span class="sr-only">(current)</span></a>
+                </li>
+                <!--li class="nav-item px-1">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="#">Buy Online</a>
+                </li-->
+            </ul>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="navbarIcon">
+            <div id="wcic">
+                <ul class="navbar-nav">
+                <li>
+                    <img src="Images/icon_wechat2.png" id="wx" onmouseover="show('img1')" onmouseout="hide('img1')" class="icon"/>
+                    <img src="Images/qrcode_wechat.png" id="img1"/>
+                </li>
+                <li class="px-2">
+                    <img src="Images/icon_ins2.png" alt="ins" class="icon" onmouseover="show('img2')" onmouseout="hide('img2')" onclick="window.location.href='https://www.instagram.com/sky_jade_capital/';"/>
+                </li>
+                <li >
+                    <img src="Images/icon_encn.png" class="icon"/>
+                    
+                </li>
+            </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <div class="space">
+    </div>
+    
+    <div id="fsvs-body">
+       <div class="slide" id="slide1">
+           <div class="innerleft">
+                    <h1>International Food Standards Initiative</h1>
+           </div>
+           <div class="innerright">
+               <p>
+                    Although Australia account for only about 3% of the global food trade, the Australian food exports are worth more than A$30 billion annually and it is one of only 11 countries that are net food exporters.
+               <br/>
+                    Australia participates in, and influences, the development of international food standards to ensure that its industry and trade interests are considered, and to restrict any barriers that may inhibit market access and trade potential.
+              <br/>
+                    The International Food Standards program (IFS) contributes to the maintenance and development of international market access opportunities for the Australian food and beverage industries. This is achieved by providing scientific and technical advice in the development of Australian positions ingovernment-to-government negotiations on international food standards.
+               </p>
+               
+           </div>
+           <p id="ref">
+                   References: http://theconversation.com/agriculture-in-australia-growing-more-than-our-farming-future-22843
+                   <br/>
+                   http://www.agriculture.gov.au/ag-farm-food/food/ifsi
+            </p>
+       </div>
+       <div class="slide" id="slide2">
+         <div class="innerleft">
+                    <h1>Handling agrochemicals with trust</h1>
+           </div>
+           <div class="innerright">
+               <p>
+                    Exposure to chemicals can lead to a variety of immediate or long-term health effects.Which is why Australian manufacturers and importers are required to supply a Material Safety Data Sheet (MSDS) that explains how to handle the chemical safely.The Agricultural Chemicals Usage Databasecontains comprehensiveinformation on the agricultural chemicals used in Australia, statingthe limitations and interpretation of the agrochemicals for all farmers in Australia to follow strictly.
+              <br/>
+                    The DoAFood Regulation Policy Section works with industry and other Australian government agencies to ensure Australia’s food regulations protect public health and safety.Australian agriculture has built better understanding and closer links with the rest of society. Public understanding and trust of agriculture is high.
+               </p>
+               
+           </div>
+           <p id="ref">
+                   References: https://www.betterhealth.vic.gov.au/health/healthyliving/farm-safety-and-handling-agrichemicals
+                   <br/>
+                   http://www.environment.gov.au/protection/chemicals-management/agricultural-chemical-usage-database
+                   <br/>
+                   https://www.foodqualityandsafety.com/article/food-safety-in-australia/?singlepage=1
+            </p>
+       </div>
+       <div class="slide" id="slide3">
+         <div class="innerleft">
+                    <h1>Health Benefits of Australian Native Foods</h1>
+           </div>
+           <div class="innerright">
+               <p>
+                    Research into the Health Benefits of AustralianNative Foodsshow that Australian native fruits, herbs and spices contain superior antioxidants qualities. The native foods tested contained hydrophilic and lipophilic fractions, which offer more protection from oxidative stress and may provide other considerable health benefits compared to common fruits which have only hydrophilic antioxidants.All of the native foods tested contained 3 minerals important for genome/DNA health, such as magnesium, calcium and zinc.Bush Tomato, Tasmania Pepper Leaf andWattleseed contained rich sources of iron in the herbs. Selenium, 
+                    which is poorly found in foods because many soils are deficient, was found in Bush Tomato and Wattleseed.A high potassium sodium ratio in Davidson Plum, Australian Desert Lime and Kakadu Plum was found. A High potassium sodium ratio is important to prevent hypertension.
+               </p>
+               
+           </div>
+           <p id="ref">
+                   References: http://www.natif.com.au/natif-blog/health-benefits-of-australian-native-foods
+            </p>
+       </div>
+       <div class="slide" id="slide4">
+         <div class="innerleft">
+                    <h1>Going Organic</h1>
+           </div>
+           <div class="innerright">
+               <p>
+                    Over one million Australians regularly purchase organic foods and beverages; 65% of consumers surveyed purchase organic food occasionally. Australia has the largest surface area of certified organic land in the world. 2011 ABS statistics note that 11,199,577.4 ha is certified in Australia, from total property area of 13,637,541.9 ha (that is, including non-certified organic areas of operations with certification), recent research stated that the area of organic farmland in Australia is morethan five times that of Argentina who has the second largest organic farmland in the world. "We've got a good chance of feeding those wealthier people in China and South East Asia.” Says professor Tor Hundloe from Bond University.
+               </p>
+               
+           </div>
+           <p id="ref">
+                   References: https://www.abc.net.au/news/rural/2015-10-28/australias-organic-farming-future/6891384
+                   <br/>
+                   https://austorganic.com/wp-content/uploads/2013/09/Organic-market-report-2012-web.pdf
+            </p>     
+   </div>
+
+</body>
+
+</html>
