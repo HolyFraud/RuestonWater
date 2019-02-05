@@ -81,7 +81,7 @@
     position: absolute;
     bottom: 0;
     right: 5%;
-    color: black;
+    color: black !important;
     font-size: 0.8vw;
     text-align: left;
     background-color: transparent !important;
@@ -151,7 +151,7 @@
 #slide4 .innerright{
     bottom: 45%;
 }
-#slide4 p{
+#slide4 .innerleft p{
     width: 65%;
 }
 #slide4{
