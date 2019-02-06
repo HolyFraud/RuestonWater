@@ -32,6 +32,7 @@ h2{
 }
 
 .accordion:after {
+    
     content: '\002B';
     color: #777;
     font-weight: bold;
