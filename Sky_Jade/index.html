@@ -3,8 +3,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rueston Water | Botanical Water 100% From Australia</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/Index.css"/>
     <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css" /> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
@@ -13,7 +14,22 @@
     <script src="bootstrap-4.2.1-dist/js/scrollreveal.min.js"></script>
     <script src="JS/Effects.js"></script>
     
-             
+    <style>
+        
+
+    </style>
+        
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+    
 </head>
 <body>
 
@@ -21,22 +37,16 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark with_border" id="navbar">
         
         <a class="navbar-brand collapse navbar-collapse pl-5" href="index.html"><img src="Images/logo_rswoater.png" class="logo" id="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        <!--button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-        </button>
+        </button-->
         
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-5 pl-5">
                 <li class="nav-item px-1 active">
                     <a class="nav-link" href="index.html" style="color: #9d9d9d;">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item px-1">
-                    <a class="nav-link" href="story.html">Story</a>
-                </li>
-                <li class="nav-item px-1">
-                    <a class="nav-link" href="faq.html">FAQ</a>
                 </li>
                 <li class="nav-item px-1">
                     <a class="nav-link" href="waterpower.html">Botanical Power</a>
@@ -46,6 +56,12 @@
                 </li>
                 <li class="nav-item px-1">
                     <a class="nav-link" href="aumade.html">100% AU Made</a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="story.html">Story</a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="faq.html">FAQ</a>
                 </li>
                 <!--li class="nav-item px-1">
                     <a class="nav-link" href="products.html">Products</a>
@@ -76,7 +92,27 @@
         </div>
     </nav>
     <!-- End nav bar section-->
-   
+    <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home" class="active"><img src="Images/logo_rswoater.png" class="logo" id="logo"></a>
+        <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="story.html">Story</a>
+            <a href="faq.html">FAQ</a>
+            <a href="waterpower.html">Botanical Power</a>
+            <a href="ozlife.html">Australian LifeStyle</a>
+            <a href="aumade.html">100% AU Made</a>
+        </div>
+        <a href="javascript:void(0);" class="toggle" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    </div>
+    
+    
+    
     <div class="main">
         
     </div>
@@ -152,7 +188,7 @@
     <div class="container pt-5 ">
         <div class="row">
             <div class="col-6 pr-5">
-                <img src="Images/img_bottom.png" class="img-fluid">
+                <img src="Images/img_home_sec2.jpg" class="img-fluid">
             </div>
             <div class="col-6 pr-5 pt-5">
                 <h2>FULL BODIED WATER</h2><br />
@@ -204,7 +240,7 @@
             </div>
         </div>
     </div>
-    <script>
+    <!--script>
         window.sr = ScrollReveal(
         { 
             reset: true 
@@ -217,7 +253,7 @@
         sr.reveal('.cols3',{duration:1000});
         sr.reveal('.col-7',{duration:2000});
         sr.reveal('.col-5',{duration:2000});
-    </script>
+    </script-->
     
     
     

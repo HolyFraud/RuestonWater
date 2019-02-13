@@ -8,6 +8,9 @@
 .space-bottom{
     height: 6vw;
 }
+.container h2{
+    font-size: 3vw;
+}
 h2{
     letter-spacing: 2px;
 }
@@ -22,9 +25,10 @@ h2{
     border: none;
     text-align: left;
     outline: none;
-    font-size: 18px;
+    font-size: 1vw;
     transition: 0.4s;
     font-weight: 600;
+    
 }
 
 .active, .accordion:hover {

@@ -39,17 +39,17 @@ html,body{
 #sec1 h1{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 3.2vw !important;
-    color: #003f87 !important;
+    color: #023668 !important;
 }
 
 .container h2{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 2vw;
-    color: #003f87 !important;
+    color: #023668 !important;
 }
 .container a{
     font-family: 'Raleway', sans-serif;
-    color: #003f87 !important;
+    color: #023668 !important;
     font-size:  1.3vw;
 }
 .btnlink{
@@ -98,7 +98,7 @@ html,body{
     padding-right: 0;
     letter-spacing: 1px;
     font-family: 'Raleway', sans-serif;
-    color: #003f87;
+    color: #023668;
 }
 #navbarNav a:hover{
     color: #9d9d9d;
@@ -112,7 +112,7 @@ html,body{
 
 .nav-link .navbar-brand{
     overflow-x: hidden ;
-    color: #003f87 !important;
+    color: #023668 !important;
 }
 
 .nav-link{
@@ -191,7 +191,7 @@ p{
     color: #ffffff !important;
     font-size: 20px;
     font-weight: 700;
-    background-color: #003f87;
+    background-color: #023668;
     border-radius: 0px;
     letter-spacing: 3px;
     padding: 0 23px 13px 23px;
@@ -239,7 +239,7 @@ textarea{
 
 
 .parallax2 .label h2{
-    font-size: 3rem;
+    font-size: 4vw;
     font-family: 'Open Sans Condensed', sans-serif;
     width: 30vw;
     color: white;
@@ -287,7 +287,7 @@ textarea{
 #navbarIcon{
     position: absolute;
     right: 0;
-    padding-right: 3rem;
+    padding-right: 4vw;
 }
 #navbarIcon img{
     cursor: pointer;
@@ -320,12 +320,13 @@ textarea{
 }
 
 .footer{
+    overflow: hidden;
     position: relative;
     bottom: 0;
     height: 70px;
 }
 .footer p{
-    color: #003f87;
+    color: #023668;
     font-family: 'Raleway', sans-serif;
     position: relative;
     top: 20%;
@@ -341,14 +342,64 @@ textarea{
 	display: block;
 }
 #declaimer p{
-    color: #003f87;
+    color: #023668;
     float: right;
     margin-right: 1vw;
     
 }
+.mobile-container{
+    z-index: 1;
+    display: none;
+}
+@media only screen and (max-width: 600px){
+            
+    #navbar{
+        display: none;
+    }
+    .mobile-container {
+        z-index: 1;
+        display: block;
+        margin: auto;
+        color: white;
+        border-radius: 10px;
+    }
 
-@media only screen and (min-device-width: 768px) {
-  
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(221, 221, 221);
+;
+        position: relative;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: #023668;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a.toggle {
+        background: #ddd;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .active1 {
+        background-color: #fff;
+        color: white;
+    }
 }
 
 

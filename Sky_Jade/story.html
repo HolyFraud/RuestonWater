@@ -3,9 +3,11 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Rueston Water</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rueston Water | Our Story</title>
     <link rel="stylesheet" href="CSS/Index.css"/>
     <link rel="stylesheet" href="CSS/story.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css" /> 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
@@ -13,7 +15,16 @@
     <script src="bootstrap-4.2.1-dist/js/jquery-3.3.1.min.js"></script>
     <script src="bootstrap-4.2.1-dist/js/scrollreveal.min.js"></script>
     <script src="JS/Effects.js"></script>
-    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
 </head>
 <body>
 
@@ -29,14 +40,8 @@
         
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-5 pl-5">
-                <li class="nav-item px-1">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
                 <li class="nav-item px-1 active">
-                    <a class="nav-link" href="story.html" style="color: #9d9d9d;">Story<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item px-1">
-                    <a class="nav-link" href="faq.html">FAQ</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item px-1">
                     <a class="nav-link" href="waterpower.html">Botanical Power</a>
@@ -46,6 +51,12 @@
                 </li>
                 <li class="nav-item px-1">
                     <a class="nav-link" href="aumade.html">100% AU Made</a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="story.html" style="color: #9d9d9d;">Story<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="faq.html">FAQ</a>
                 </li>
                 <!--li class="nav-item px-1">
                     <a class="nav-link" href="products.html">Products</a>
@@ -74,7 +85,24 @@
             </div>
         </div>
     </nav>
-    
+    <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home" class="active"><img src="Images/logo_rswoater.png" class="logo" id="logo"></a>
+        <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="story.html">Story</a>
+            <a href="faq.html">FAQ</a>
+            <a href="waterpower.html">Botanical Power</a>
+            <a href="ozlife.html">Australian LifeStyle</a>
+            <a href="aumade.html">100% AU Made</a>
+        </div>
+        <a href="javascript:void(0);" class="toggle" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    </div>
     <div class="space-top">
     </div>
     <div class="text-center" id="sec1">

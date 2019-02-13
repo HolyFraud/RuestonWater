@@ -3,8 +3,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rueston Water - FAQ</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/Index.css"/>
     <link rel="stylesheet" href="CSS/faq.css" />
     <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css" /> 
@@ -12,7 +13,17 @@
     <script src="bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
     <script src="bootstrap-4.2.1-dist/js/jquery-3.3.1.min.js"></script>
     <script src="bootstrap-4.2.1-dist/js/scrollreveal.min.js"></script>
-            
+    <script src="JS/Effects.js"></script>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>     
 </head>
 <body>
 
@@ -32,12 +43,6 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item px-1">
-                    <a class="nav-link" href="story.html">Story</a>
-                </li>
-                <li class="nav-item px-1">
-                    <a class="nav-link" href="faq.html" style="color: #9d9d9d;">FAQ<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item px-1">
                     <a class="nav-link" href="waterpower.html">Botanical Power</a>
                 </li>
                 <li class="nav-item px-1">
@@ -45,6 +50,12 @@
                 </li>
                 <li class="nav-item px-1">
                     <a class="nav-link" href="aumade.html">100% AU Made</a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="story.html">Story</a>
+                </li>
+                <li class="nav-item px-1">
+                    <a class="nav-link" href="faq.html"  style="color: #9d9d9d;">FAQ<span class="sr-only">(current)</span></a>
                 </li>
                 <!--li class="nav-item px-1">
                     <a class="nav-link" href="products.html">Products</a>
@@ -74,6 +85,25 @@
             
         </div>
     </nav>
+    
+    <div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="index.html" class="active1"><img src="Images/logo_rswoater.png" class="logo" id="logo"></a>
+        <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="story.html">Story</a>
+            <a href="faq.html">FAQ</a>
+            <a href="waterpower.html">Botanical Power</a>
+            <a href="ozlife.html">Australian LifeStyle</a>
+            <a href="aumade.html">100% AU Made</a>
+        </div>
+        <a href="javascript:void(0);" class="toggle" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    </div>
     <!-- End nav bar section-->
     <div class="space-top">
     </div>
@@ -189,20 +219,20 @@
     </div>
     
     <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
+        var acc = document.getElementsByClassName("accordion");
+        var i;
 
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight){
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        } 
-      });
-    }
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight){
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            } 
+          });
+        }
     </script>
     </body>
 </html>

@@ -23,7 +23,7 @@
 .slide h1{
     font-family: 'Open Sans Condensed', sans-serif !important;
     padding: 10px;
-    font-size: 60px !important;
+    font-size: 4vw !important;
     position: relative;
 }
 .slide p{
@@ -31,7 +31,7 @@
     padding: 10px;
     position: relative;
     text-align: left;
-    
+    font-size: 1.2vw;
 }
 #s1_bottle{
     position: absolute;
@@ -105,6 +105,60 @@
 }
 .count{
     color: #003f87;
-    font-size: 40px;
+    font-size: 2.3vw;
     position: relative;
+}
+.mobile-container{
+    z-index: 1;
+    display: none;
+}
+@media only screen and (max-width: 600px){
+            
+    #navbar{
+        display: none;
+    }
+    .mobile-container {
+        z-index: 1;
+        display: block;
+        margin: auto;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: rgb(221, 221, 221);
+;
+        position: relative;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: #003f87;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a.toggle {
+        background: #ddd;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .active {
+        background-color: #fff;
+        color: white;
+    }
 }

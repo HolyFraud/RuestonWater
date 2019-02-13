@@ -16,6 +16,7 @@
         
 .slide{
     color: #fff;
+    font-family: 'Raleway', sans-serif;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,7 +24,7 @@
 .slide h1{
     background-color: rgba(0,0,0,0.3);
     padding: 10px;
-    font-size: 60px !important;
+    font-size: 4vw !important;
     font-family: 'Open Sans Condensed', sans-serif !important;
     position: relative;
 }
@@ -34,7 +35,7 @@
     font-family: 'Raleway', sans-serif;
     position: relative;
     text-align: left;
-    
+    font-size: 1.2vw;
 }
 
 #slide1 h1{
