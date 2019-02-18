@@ -7,7 +7,8 @@
     <title>Rueston Water | Botanical Water 100% From Australia</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/Index.css"/>
-    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css"/> 
+    <link href="CSS/style.css" media="all" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
     <script src="bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
     <script src="bootstrap-4.2.1-dist/js/jquery-3.3.1.min.js"></script>
@@ -77,7 +78,7 @@
                 <ul class="navbar-nav">
                 <li>
                     <img src="Images/icon_wechat2.png" id="wx" onmouseover="show('img1')" onmouseout="hide('img1')" class="icon"/>
-                    <a class="snapchat" target="_parent" id="wxa"><img src="Images/qrcode_wechat.png" id="img1"/></a>
+                    <img src="Images/qrcode_wechat.png" id="img1"/>
                 </li>
                 <li class="px-2">
                     <img src="Images/icon_ins2.png" alt="ins" class="icon" onmouseover="show('img2')" onmouseout="hide('img2')" onclick="window.location.href='https://www.instagram.com/sky_jade_capital/';"/>
@@ -116,24 +117,22 @@
     <div class="main">
         
     </div>
-    <div class="container text-center" id="sec1">
-        <h1>Healthy Water</h1><br />
-        <img src="Images/logo_ruswater.jpeg" id="rswater"/>
+    <div class="wrapper">
     </div>
     <div class="container pt-5 ">
         <div class="row">
             <div class="col-6 pr-5">
-                <img src="Images/img_bottom.png" class="img-fluid">
+                <img src="Images/img_bottom.png" class="img-fluid" id="bottle_first">
             </div>
             <div style="margin-top: 45px;margin-bottom: 0px;"></div>
                 <div style="margin-top: 45px;margin-bottom: 0px;"></div>
-            <div class="col-6 pr-5 pt-5">
-                <h2 style="padding-top: 1vw;">Australian Rueston Water</h2><br />
-                <h2>We grow water 100% from fruit & vegetables</h2><br />
+            <div class="col-5 pr-5 pt-5">
+                <h2>Australian Rueston Water</h2>
+                <h2>We grow water 100% from fruit & vegetables</h2>
                 <a>
                     At Rueston we found a way to harvest the naturally occurring water from Australian fruits & vegetables at the same time as juice concentrate is made. Utilising every available drop of water contained in the fruits & vegetables, we’ve proudly created a new sustainable source – Botanical water! It’s an award winning Australian invention, grown and owned in Australia!
                 </a>
-                <div style="margin-top: 45px;margin-bottom: 0px;"></div>
+                
                 <div style="margin-top: 45px;margin-bottom: 0px;"></div>
                 
             </div>
@@ -153,7 +152,6 @@
                             All year round an abundance of fruit and vegetables grow in Australia’s diverse soils. Some harvests are more generous than others, producing so much that we cannot eat it all. Australian farmers know how much it takes to grow good food, so instead of wasting it they turn this overabundance into wholesome juice. Fruit and vegetables naturally contain water. At Rueston we extract this water from the process of making juice.
                         </p>
                         <div style="margin-top: 45px;margin-bottom: 0px;"></div>
-                        <!--a class="btn1 btn btn-secondary px-3" href="about.html">More Info</a-->
                     </div>
                     
                 </div>
@@ -188,11 +186,11 @@
     <div class="container pt-5 ">
         <div class="row">
             <div class="col-6 pr-5">
-                <img src="Images/img_home_sec2.jpg" class="img-fluid">
+                <img src="Images/img_bpower_bottle_11.jpg" class="img-fluid" id="bottle_second">
             </div>
-            <div class="col-6 pr-5 pt-5">
-                <h2>FULL BODIED WATER</h2><br />
-                <h2>for wholesome indulging</h2><br />
+            <div class="col-5 pr-5 pt-5">
+                <h2>FULL BODIED WATER</h2>
+                <h2>for wholesome indulging</h2>
                 <a>
                     Rueston is unlike any water you have tasted before. It has body and finesse, leaving your taste buds with a silky finish. Rueston is the perfect companion to gourmet food and fine wines. It is the water with substance for your sparkling night out. Rueston is free of toxins and sugars and contains essential plant minerals that make for wholesome indulging.
                 </a>
@@ -224,8 +222,7 @@
         <div class="row">
             <div class="col-4">
                 <p>
-                    Copyrightⓒ 2019 <b>Sky Jade Capital.</b> All Rights Reserved.<br/>
-                    Designed by Legend Digital
+                    Copyrightⓒ 2019 <b>Sky Jade Capital.</b> All Rights Reserved.
                 </p>
             </div>
             <div class="col-4">
@@ -235,7 +232,7 @@
             </div>
             <div id="declaimer" class="col-4">
                 <p>
-                    Declaimer
+                    Disclaimer
                 </p>
             </div>
         </div>
