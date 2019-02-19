@@ -36,7 +36,7 @@ html,body{
     width: 25%;
 }
 .wrapper{
-    height: 90%;
+    height: 100%;
     background-image: url(../Images/home_slider1.jpeg);
     background-size: cover;
     background-position: center;
@@ -125,7 +125,7 @@ html,body{
     color: #9d9d9d;
 }
 .navbar{
-    background-color: rgba(255,255,255,1);
+    background-color: rgba(255,255,255,0);
     height: 6.5vw;
     transition: 0.4s;
     

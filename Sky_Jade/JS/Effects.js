@@ -11,10 +11,12 @@ function scrollFunction() {
         document.getElementById("navbar").style.height = "4vw";
         document.getElementById("logo").style.width = "10%";
         document.getElementById("navbar").style.borderBottom = "1px solid #9d9d9d";
+        document.getElementById("navbar").style.background= "rgba(255,255,255,1)";
     } else {
         document.getElementById("navbar").style.height = "6.5vw";
         document.getElementById("logo").style.width = "15%";
         document.getElementById("navbar").style.borderBottom = "0px solid #9d9d9d";
+        document.getElementById("navbar").style.background= "rgba(255,255,255,0)";
     }
 };
 
