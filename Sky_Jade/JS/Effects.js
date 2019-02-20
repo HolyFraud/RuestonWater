@@ -5,7 +5,7 @@ function hide(x) {
         document.getElementById(x).style.display='none';
 }
 
-window.onscroll = function() {scrollFunction()};
+/**window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
     if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
         document.getElementById("navbar").style.height = "4vw";
@@ -19,7 +19,7 @@ function scrollFunction() {
         document.getElementById("navbar").style.background= "rgba(255,255,255,0)";
     }
 };
-
+*/
 
 var index = 0;
 showSlides();
