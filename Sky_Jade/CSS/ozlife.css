@@ -97,14 +97,14 @@
 }
 #slide4 h1{
     width: 45vw;
-    top: 37%;
+    top: 20%;
     left: 28%;
     right: 28%;
     transform: translate(0,0);
 }
 #slide4 p{
     width: 45vw;
-    top: 37%;
+    top: 20%;
     left: 55%;
     transform: translate(-60%, 0%);
 }
@@ -115,4 +115,23 @@
     color: #fff;
     font-size: 40px;
     position: relative;
+}
+.footer{
+    padding-left: 12vw;
+    padding-right: 6vw;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 4vw;
+    height: 70px;
+    background-color: #fff;
+}
+.footer p{
+    background-color: transparent;
+}
+.footer img{
+    width: 35%;
+    margin-left: 6vw;
+    /* margin-right: 0; */
+    display: block;
 }

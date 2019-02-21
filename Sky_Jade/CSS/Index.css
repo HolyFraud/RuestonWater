@@ -10,7 +10,6 @@ html,body{
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 3rem;
 }
 .row{
     margin-right: 0;
@@ -366,11 +365,15 @@ textarea{
 	margin-right: auto;
 	display: block;
 }
-#declaimer p{
+#declaimer p a{
     color: #023668;
     float: right;
     margin-right: 1vw;
-    
+    text-decoration: none;
+}
+#declaimer p a:hover{
+    color: #9d9d9d;
+    cursor: pointer;
 }
 .mobile-container{
     z-index: 1;

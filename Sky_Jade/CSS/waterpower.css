@@ -38,7 +38,7 @@
     display: inline;
     width: 28%;
     margin-top: calc(47vh - 16vw);
-    margin-left: 22.5%;
+    margin-left: 17.5%;
     vertical-align: middle;
 }
 #slide1 h1{
@@ -112,6 +112,28 @@
     z-index: 1;
     display: none;
 }
+.footer{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    background-color: #fff;
+}
+.footer p{
+    left: 0 !important;
+    width: 100% !important;
+    background-color: transparent;
+    top: 20% !important;
+    padding: 10px 0;
+}
+.footer img{
+    width: 35%;
+    margin-left: 6vw;
+    /* margin-right: 0; */
+    display: block;
+}
+
 @media only screen and (max-width: 600px){
             
     #navbar{

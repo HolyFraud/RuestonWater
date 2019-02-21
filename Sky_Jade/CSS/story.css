@@ -1,7 +1,7 @@
 .container{
     padding-left: 15px;
     padding-right: 15px;
-    
+    padding: 0 10em !important;
 }
 
 .space-top{
@@ -17,8 +17,20 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
+.content-img1{
+    height: 20vw;
+    background-image: url(../Images/stroy_img3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content-img2{
+    height: 20vw;
+    background-image: url(../Images/story_img2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .content-word p{
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
