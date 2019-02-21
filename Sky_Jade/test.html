@@ -1,107 +1,104 @@
 <!DOCTYPE html>
-<html class="fsvs" lang="en">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
- <title></title>
- <!--Codex de jquery-->
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-3.0.1.js"></script>
-    <script src="JS/bundle.js"></script>
+    <title>Rueston Water | Botanical Water 100% From Australia</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="CSS/style.css" media="all" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Coming+Soon|Open+Sans+Condensed:300|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="CSS/Index.css"/>
-    <link rel="stylesheet" href="CSS/tech.css" />
-    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css" /> 
+    <link rel="stylesheet" href="bootstrap-4.2.1-dist/css/bootstrap.min.css"/> 
+    <link href="CSS/style.css" media="all" rel="stylesheet" type="text/css" />
+    <!--link rel="stylesheet" type="text/css" href="css/demo.css" /-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
     <script src="bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.2.1-dist/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap-4.2.1-dist/js/scrollreveal.min.js"></script>
     <script src="JS/Effects.js"></script>
     
-    
-    
-    <style>
-        .mobile-container{
-            display: none;
-        }
-        @media only screen and (max-width: 600px){
-            body {
-                  font-family: Arial, Helvetica, sans-serif;
-                }
-            
-                .mobile-container {
-                  display: block;
-                  margin: auto;
-                  height: 500px;
-                  color: white;
-                  border-radius: 10px;
-                }
-
-                .topnav {
-                  overflow: hidden;
-                  background-color: #333;
-                  position: relative;
-                }
-
-                .topnav #myLinks {
-                  display: none;
-                }
-
-                .topnav a {
-                  color: white;
-                  padding: 14px 16px;
-                  text-decoration: none;
-                  font-size: 17px;
-                  display: block;
-                }
-
-                .topnav a.icon {
-                  background: black;
-                  display: block;
-                  position: absolute;
-                  right: 0;
-                  top: 0;
-                }
-
-                .topnav a:hover {
-                  background-color: #ddd;
-                  color: black;
-                }
-
-                .active {
-                  background-color: #4CAF50;
-                  color: white;
-                }
-                        }
-
-</style>
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+  }
+  </style>
 </head>
 <body>
-<!-- Simulate a smartphone / tablet -->
-<div id="1" class="mobile-container">
 
-<!-- Top Navigation Menu -->
-<div id="2" class="topnav">
-  <a href="#home" class="active">Logo</a>
-  <div id="myLinks">
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Images/home_slider1.jpeg" alt="Los Angeles" width="1100" height="0">
+      <div class="carousel-caption">
+        <h3>Los Angeles</h3>
+        <p>We had such a great time in LA!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="Images/home_slider2.jpeg" alt="Chicago" width="1100" height="0">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="Images/home_slider3.jpeg" alt="New York" width="1100" height="0">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
+      <div class="carousel-item">
+      <img src="Images/home_slider4.jpeg" alt="New York" width="1100" height="0">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>   
+    </div>
   </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
   </a>
 </div>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
-
+    <div class="container pt-5 ">
+        <div class="row">
+            <div class="col-6 pr-5">
+                <img src="Images/img_bottom.png" class="img-fluid" id="bottle_first">
+            </div>
+            <div class="col-5 pr-5 pt-3">
+                <br/>
+                <br/>
+                <br/>
+                <h2>Australian Rueston Water</h2>
+                <h2>We grow water 100% from fruit & vegetables</h2>
+                <a>
+                    At Rueston we found a way to harvest the naturally occurring water from Australian fruits & vegetables at the same time as juice concentrate is made. Utilising every available drop of water contained in the fruits & vegetables, we’ve proudly created a new sustainable source – Botanical water! It’s an award winning Australian invention, grown and owned in Australia!
+                </a>
+                <br/>
+                <br/>
+                <br/>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+    
 </body>
 </html>
