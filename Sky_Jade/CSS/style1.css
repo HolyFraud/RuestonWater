@@ -13,10 +13,10 @@ ol,ul {
     left: 0px;
     z-index: 0; 
 }
-.cb-slideshow:after { 
+/*.cb-slideshow:after { 
     content: '';
     background: transparent url(../images/pattern.png) repeat top left; 
-}
+}*/
 .cb-slideshow li span { 
     width: 100%;
     height: 100%;
@@ -30,11 +30,11 @@ ol,ul {
     opacity: 0;
     z-index: 0;
 	-webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 24s linear infinite 0s;
+    /*-webkit-animation: imageAnimation 24s linear infinite 0s;
     -moz-animation: imageAnimation 24s linear infinite 0s;
     -o-animation: imageAnimation 24s linear infinite 0s;
     -ms-animation: imageAnimation 24s linear infinite 0s;
-    animation: imageAnimation 24s linear infinite 0s; 
+    animation: imageAnimation 24s linear infinite 0s; */
 }
 .cb-slideshow li div { 
     z-index: 1000;
@@ -45,11 +45,11 @@ ol,ul {
     text-align: center;
     opacity: 0;
     color: #fff;
-    -webkit-animation: titleAnimation 24s linear infinite 0s;
+    /*-webkit-animation: titleAnimation 24s linear infinite 0s;
     -moz-animation: titleAnimation 24s linear infinite 0s;
     -o-animation: titleAnimation 24s linear infinite 0s;
     -ms-animation: titleAnimation 24s linear infinite 0s;
-    animation: titleAnimation 24s linear infinite 0s; 
+    animation: titleAnimation 24s linear infinite 0s; */
 }
 .cb-slideshow li div h3 { 
     font-family: 'Open Sans Condensed', sans-serif;
@@ -61,9 +61,9 @@ ol,ul {
     letter-spacing: 1px;
 }
 .cb-slideshow li:nth-child(1) span { 
-    background-image: url(../images/home_slider1.jpeg) 
+    background-image: url(../images/story_img2.jpeg) 
 }
-.cb-slideshow li:nth-child(2) span { 
+/*.cb-slideshow li:nth-child(2) span { 
     background-image: url(../images/home_slider2.jpeg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
@@ -103,7 +103,7 @@ ol,ul {
     -ms-animation-delay: 30s;
     animation-delay: 30s; 
 }*/
-.cb-slideshow li:nth-child(2) div { 
+/*.cb-slideshow li:nth-child(2) div { 
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
@@ -139,7 +139,7 @@ ol,ul {
     animation-delay: 30s; 
 }*/
 /* Animation for the slideshow images */
-@-webkit-keyframes imageAnimation { 
+/*@-webkit-keyframes imageAnimation { 
     0% { opacity: 0;
     -webkit-animation-timing-function: ease-in; }
     8% { opacity: 1;
@@ -185,7 +185,7 @@ ol,ul {
     100% { opacity: 0 }
 }
 /* Animation for the title */
-@-webkit-keyframes titleAnimation { 
+/*@-webkit-keyframes titleAnimation { 
     0% { opacity: 0 }
     8% { opacity: 1 }
     17% { opacity: 1 }
@@ -221,7 +221,7 @@ ol,ul {
     100% { opacity: 0 }
 }
 /* Show at least something when animations not supported */
-.no-cssanimations .cb-slideshow li span{
+/*.no-cssanimations .cb-slideshow li span{
 	opacity: 1;
 }
 

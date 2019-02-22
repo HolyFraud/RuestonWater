@@ -188,7 +188,8 @@
             duration: 7000,
             easing: 'swing',
             step: function () {
-              $this.text(Math.ceil(this.Counter));
+                $this.text(Math.ceil(this.Counter));
+                $('.count').removeAttr('style');
             }
           });
         });

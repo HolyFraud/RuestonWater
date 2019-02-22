@@ -24,33 +24,54 @@
 }
     
 .slide .innerleft{
-    width: 50%;
+        width: 50%;
     position: absolute;
     left: 0;
     text-align: left;
+    bottom: 30%;
 }
 .innerleft h1{
-    padding: 30px;
-    bottom: 40%;
-    position: absolute;
+        position: absolute;
+    left: 10%;
+    font-size: 5vw !important;
+    letter-spacing: 10px;
+    font-weight: normal;
+    bottom: 1vw;
+}
+.innerleft h2{
+    position: relative;
+    top: 2.5vw;
+    left: 10%;
+    font-size: 1.87vw;
+}
+#slide4-h2{
+    letter-spacing: 0.154vw;
+}
+.innerleft h1 b{
+    font-size: 10vw !important;
+    font-weight: 100;
 }
 .innerright h1{
     padding: 30px;
     margin-left: 13vw;
     position: absolute;
     font-size: 3.5vw !important;
+    left: 50%;
 }
 .slide .innerright{
-    width: 50%;
+    width: 42%;
     position: absolute;
-    right: 0;
+    right: 6vw;
     text-align: left;
+    background-color: rgba(0,0,0,0.2);
+    /* padding: 0 !important; */
+    margin-right: 10px;
 }
 .innerright p{
     margin: auto;
     text-align: left;
-    width: 90%;
-    padding: 10px 30px;
+    width: 100%;
+    padding: 10px 20px;
     font-size: 1.2vw;
 }
 .innerleft p{
@@ -70,11 +91,14 @@
     margin: auto;
     padding-left: 8vw;
 }
+#slide1 .innerleft h1{
+    letter-spacing: 2px;
+}
 #slide1 .innerright{
-    bottom: 32%;
+    bottom: 16%;
 }
 #slide1{
-    background-image: url(../Images/bg_aumade_slide1.jpg);
+    background-image: url(../Images/bg_aumade_slide1.jpeg);
 }
 
 #slide2 .innerleft{
@@ -87,12 +111,11 @@
     padding-left: 8vw;
     
 }
-#slide2 .innerright{
-    bottom: 45%;
+#slide2 .innerleft h1{
+    letter-spacing: 3px;
 }
-#slide2 p{
-    color: #fff;
-    background-color: rgba(100,149,237,0.3);
+#slide2 .innerright{
+    bottom: 16%;
 }
 #slide2{
     background-image: url(../Images/bg_aumade_slide2.jpg);
@@ -100,31 +123,21 @@
 
 #slide3 .innerleft{
     bottom: 30%;
-    margin-left: 10%;
+}
+#slide3 .innerleft h1{
+    font-size: 3vw !important;
+    left: 10% !important;
+    letter-spacing: 5px;
 }
 #slide3 .innerright{
-    bottom: 25%;
-}
-#slide3 p{
-    color: #fff;
-    background-color: rgba(100,149,237,0.3);
+    bottom: 16%;
 }
 #slide3{
     background-image: url(../Images/bg_aumade_slide3.jpg);
 }
 
-#slide4 .innerleft{
-    width: 50%;
-    position: absolute;
-    left: 0;
-    bottom: 10%;
-    text-align: left;
-    margin: auto;
-    padding-left: 5vw;
-    
-}
 #slide4 .innerright{
-    bottom: 45%;
+    bottom: 22%;
 }
 #slide4 .innerleft p{
     width: 65%;
