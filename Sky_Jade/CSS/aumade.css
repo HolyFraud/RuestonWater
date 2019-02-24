@@ -24,28 +24,31 @@
 }
     
 .slide .innerleft{
-        width: 50%;
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
     position: absolute;
     left: 0;
     text-align: left;
     bottom: 30%;
 }
 .innerleft h1{
-        position: absolute;
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
     left: 10%;
-    font-size: 5vw !important;
+    font-size: 4vw !important;
     letter-spacing: 10px;
     font-weight: normal;
     bottom: 1vw;
 }
 .innerleft h2{
+    font-family: 'Open Sans Condensed', sans-serif;
     position: relative;
     top: 2.5vw;
     left: 10%;
     font-size: 1.87vw;
 }
 #slide4-h2{
-    letter-spacing: 0.154vw;
+    letter-spacing: 0.079vw;
 }
 .innerleft h1 b{
     font-size: 10vw !important;
@@ -85,14 +88,16 @@
 #slide1 .innerleft{
     width: 50%;
     position: absolute;
-    left: 0;
-    bottom: 20%;
+    left: 5%;
+    bottom: 35%;
     text-align: left;
-    margin: auto;
-    padding-left: 8vw;
 }
 #slide1 .innerleft h1{
+    color: #003f87;
     letter-spacing: 2px;
+}
+#slide1 .innerleft h2{
+    color: #003f87;
 }
 #slide1 .innerright{
     bottom: 16%;
@@ -105,14 +110,12 @@
     width: 50%;
     position: absolute;
     left: 0;
-    bottom: 20%;
+    bottom: 35%;
     text-align: left;
-    margin: auto;
-    padding-left: 8vw;
     
 }
 #slide2 .innerleft h1{
-    letter-spacing: 3px;
+    letter-spacing: 5px;
 }
 #slide2 .innerright{
     bottom: 16%;
@@ -122,10 +125,9 @@
 }
 
 #slide3 .innerleft{
-    bottom: 30%;
+    bottom: 41%;
 }
 #slide3 .innerleft h1{
-    font-size: 3vw !important;
     left: 10% !important;
     letter-spacing: 5px;
 }
